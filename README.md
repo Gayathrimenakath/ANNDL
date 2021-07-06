@@ -1,0 +1,1 @@
+Artificial Neural Networks and Deep Learning (ANND) is a course offered to Master of Science students at Politecnico di Milano. This repository contains the code and details of three mini Kaggle style competition covering the course topics of image classification, image recognition and visual question answering.
