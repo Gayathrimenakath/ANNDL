@@ -1,0 +1,11 @@
+We used CNN+RNN , the pretrained models used were Xception,VGG19,InceptionResNetV2 with adam and RMSProp optimizers.
+We used the learning rates, 0.001,0.0001,0.0002,0.00001
+We got the best output for InceptionResNetV2 using adam. RMSProp also gave similar results of accuracy 0.44.
+InceptionResNetV2, optimizer= adam and learning rate =1e^-4
+We also tried adding few dense layers along with dropout in the CNN.
+We also used bidirectional LSTM layers.
+
+When we tried using 3 layer of LSTM to encode questions. This gave us an accuracy of 0.39.
+
+
+
