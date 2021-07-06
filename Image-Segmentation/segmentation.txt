@@ -1,0 +1,12 @@
+Files included - 
+1.Model.ipynb - Trained with transfer learning on Bibpip Haricot images
+2.Model_all_teams.ipynb - Model trained with all the images of crop Haricot from all teams. 
+3.Unet.ipynb - Trained with Unet using Bibpip Haricot images  
+
+Data Preprocessing - we started off with data preprocessing, we encountered many problems while coding the Custom dataset function. Large parts of our efforts were spent on understanding how to work with the data like converting RGB to target mask, several shape issues etc. We alos encountered several issues while creating the submission.json. 
+
+Architectures and models we worked on include transfer learning with vgg16, DenseNet, Resnet and Unet architecture. 
+
+We also tried pooling together all the images of each crop from each team along with their augumentation to increase the number of training data.
+
+Problems enocuntered while submitting - although we got some segmented masks with weed, crop segmentations from the test dataset upon submission it gave as 0 score. 
